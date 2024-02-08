@@ -15,8 +15,8 @@ public class AccessLog {
 	private int hour;
 	private int minute;
 	private int second;
-	private int userID;
-	private int doorID;
+	private string userID;
+	private string doorID;
 	private static final String REGEX = "^(\\d{4})(\\d{2})(\\d{2})\\.(\\d{2})(\\d{2})(\\d{2}) User:(.{4}) Door:(.{3})$";
 	private static final Pattern PATTERN = Pattern.compile(REGEX);
 
@@ -117,9 +117,9 @@ public class AccessLog {
 	}
 
 	/* Getters */
-
 	public String getUserID() { return this.userID; }
 	public String getDoorID() { return this.doorID; }
+	public int getYear() {return this.year;}
 	public int getMonth() { return this.month; }
 	public int getDay() { return this.day; }
 	public int getHour() { return this.hour; }
