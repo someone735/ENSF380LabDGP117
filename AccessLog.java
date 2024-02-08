@@ -124,5 +124,5 @@ public class AccessLog {
 	public int getDay() { return this.day; }
 	public int getHour() { return this.hour; }
 	public int getMinute() { return this.minute; }
-	public int getSecond() { System.out.println(this.second); return 0;}
+	public int getSecond() { return this.second;}
 }
