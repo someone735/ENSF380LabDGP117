@@ -3,8 +3,8 @@ Copyright Ann Barcomb and Emily Marasco, 2023
 Licensed under GPL v3
 See LICENSE.txt for more information.
 */
+package ENSF380LabDGP117;
 
-package edu.calgary.oop;
 
 import java.util.regex.*;
 
@@ -15,8 +15,8 @@ public class AccessLog {
 	private int hour;
 	private int minute;
 	private int second;
-	private string userID;
-	private string doorID;
+	private String userID;
+	private String doorID;
 	private static final String REGEX = "^(\\d{4})(\\d{2})(\\d{2})\\.(\\d{2})(\\d{2})(\\d{2}) User:(.{4}) Door:(.{3})$";
 	private static final Pattern PATTERN = Pattern.compile(REGEX);
 

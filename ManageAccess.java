@@ -4,7 +4,7 @@ Licensed under GPL v3
 See LICENSE.txt for more information.
 */
 
-package edu.ucalgary.oop;
+package ENSF380LabDGP117;
 
 public class ManageAccess {
 	private AccessLog[] completeLog = new AccessLog[10];
